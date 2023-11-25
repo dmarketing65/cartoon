@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debate Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Debate Generator</h1>
+    </header>
+
+    <!-- User Input Section -->
+    <section id="user-input">
+        <h2>User Input</h2>
+        <form id="user-input-form">
+            <label for="text-input">Enter Text:</label>
+            <input type="text" id="text-input" name="text-input">
+
+            <label for="photo-upload">Upload Photo:</label>
+            <input type="file" id="photo-upload" name="photo-upload" accept="image/*">
+
+            <button type="button" onclick="submitForm()">Generate Video</button>
+        </form>
+    </section>
+
+    <!-- Photo Upload Section -->
+    <section id="photo-upload">
+        <h2>Photo Upload</h2>
+        <!-- Add form for photo upload -->
+    </section>
+
+    <!-- Video Output Section -->
+    <section id="video-output">
+        <h2>Video Output</h2>
+        <video id="generated-video" controls></video>
+        <p><a id="download-link" href="#" download>Download Video</a></p>
+    </section>
+
+    <script src="client.js"></script>
+
+</body>
+
+</html>

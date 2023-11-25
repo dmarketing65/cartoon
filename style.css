@@ -1,0 +1,64 @@
+body {
+    background-color: #fff; /* White background */
+    color: #000; /* Black text color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #008000; /* Green header background */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 1em;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #008000; /* Green border for sections */
+    border-radius: 10px;
+}
+
+h2 {
+    color: #008000; /* Green heading color */
+}
+
+input[type="text"],
+input[type="file"],
+button {
+    margin-bottom: 10px;
+    width: 100%; /* Make inputs and button full-width */
+}
+
+button {
+    background-color: #008000; /* Green button background */
+    color: #fff; /* White text color */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#video-output {
+    background-color: #008000; /* Green background for video output */
+    color: #fff; /* White text color */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Responsive Design */
+@media screen and (min-width: 768px) {
+    /* Adjust styles for tablets and desktops */
+    section {
+        max-width: 600px;
+        margin: 20px auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    /* Adjust styles for desktops */
+    section {
+        max-width: 800px;
+    }
+}
